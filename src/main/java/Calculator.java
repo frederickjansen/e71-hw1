@@ -1,11 +1,11 @@
-/**
- * Created by Frederick on 9/8/2015.
- */
 public class Calculator {
+
     /**
-     * @param x
-     * @param y
-     * @return
+     * Calculate sum of two values.
+     *
+     * @param x Value 1 to sum
+     * @param y Value 2 to sum
+     * @return The sum of x and y
      */
     public int sumInts(int x, int y) {
         return 0;
