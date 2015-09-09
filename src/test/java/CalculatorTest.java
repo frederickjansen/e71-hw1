@@ -19,5 +19,7 @@ public class CalculatorTest {
     @Test
     public void testSumInts() throws Exception {
         assertEquals(3, calculator.sumInts(1,2));
+        assertEquals(0, calculator.sumInts(-2,2));
+        assertEquals(-2, calculator.sumInts(-1, -1));
     }
 }
