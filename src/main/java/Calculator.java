@@ -8,6 +8,6 @@ public class Calculator {
      * @return The sum of x and y
      */
     public int sumInts(int x, int y) {
-        return 0;
+        return x + y;
     }
 }
