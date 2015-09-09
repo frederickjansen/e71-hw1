@@ -1,10 +1,8 @@
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
-/**
- * Created by Frederick on 9/8/2015.
- */
 public class CalculatorTest {
 
     Calculator calculator;
@@ -20,6 +18,6 @@ public class CalculatorTest {
 
     @Test
     public void testSumInts() throws Exception {
-        assert().e
+        assertEquals(3, calculator.sumInts(1,2));
     }
 }
